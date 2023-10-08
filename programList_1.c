@@ -1,19 +1,24 @@
 #include<stdio.h>
-	int main()
+int MaxCommonFactor( int a, int b)
+{ 
+   int c; 
+   if(a<=0||b<=0) 
+      return -1; 
+   while(b!=0)
+   { 
+     c=a%b; 
+     a=b;
+     b=c;
+   } 
+  return a; 
+}   
+int main(void)
 	{  
-	/********* Begin *********/
-    int a, b, c, max;
-    
-    scanf("%d %d %d", &a, &b, &c);
-    
-    if(a>b && a>c)
-        max = a;
-    else if(b>a && b>c)
-        max = b;
-    else
-        max = c;
-	
-    printf("max=%d", max);
-	/********* End *********/
-       return 0;
-	}
+	  /*********Begin*********/
+	  int a, b;
+    scanf("%d,%d", &a,&b);
+    printf("%d\n", MaxCommonFactor(a, b));
+
+	  /*********End**********/ 
+    return 0;
+}

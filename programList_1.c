@@ -1,24 +1,24 @@
 #include<stdio.h>
-int MaxCommonFactor( int a, int b)
-{ 
-   int c; 
-   if(a<=0||b<=0) 
-      return -1; 
-   while(b!=0)
-   { 
-     c=a%b; 
-     a=b;
-     b=c;
-   } 
-  return a; 
-}   
-int main(void)
+	int main(void)
 	{  
-	  /*********Begin*********/
-	  int a, b;
-    scanf("%d,%d", &a,&b);
-    printf("%d\n", MaxCommonFactor(a, b));
+	  float weight, zone, price;
+	  scanf("%f,%f", zone, weight);
+	  
+	  if (zone < 0 && zone > 4)
+	  {
+		printf("Error in Area\n");
+	  }
+	  
+	  if (weight < 0)
+	  {
+		printf("Error in Area\n");
+	  }
+	  
+	  if (zone = 0)
+	  {
+		
+	  }
+	  
 
-	  /*********End**********/ 
-    return 0;
-}
+       return 0;
+	}

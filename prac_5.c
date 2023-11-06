@@ -1,12 +1,26 @@
-#include <stdlib.h>
+/**
+ * @brief numberless homework!!
+ * @author LeoZ
+*/
+
 #include <stdio.h>
-int main()
+int main(void)
 {
-    int num;
-    char string[20] = {0};
-	scanf("%d", &num);
-    itoa(num,string,10);
-    printf("数字：%d 转换后的字符串为：%s\n",num,string);
+    int i;
+    for (i = 0; i < 3; i++)
+    {
+        switch (i)
+        {
+        case 1:
+            printf("%d", i);
+        case 2:
+            printf("%d", i);
+        default:
+            printf("%d", i);
+        
+        }
+    }
+    
     
     return 0;
 }

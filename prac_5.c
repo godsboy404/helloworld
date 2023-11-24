@@ -1,13 +1,16 @@
 /**
- * @brief s1mp prac
+ * @brief di-3
  * @author Lz
- * @date 11/15/23
+ * @date 11/22/23@20:03
 */
 
 #include <stdio.h>
+
 int main()
 {
-    int x = 020;
-    printf("%d", x);
-    return x;
+    char ch = '0';
+
+    printf("%d", ch);
+
+    return 0;
 }

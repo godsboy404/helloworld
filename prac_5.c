@@ -1,16 +1,21 @@
 /**
- * @brief di-3
+ * @brief 跟郝老师自学C语言-目前进行到P36
  * @author Lz
- * @date 11/22/23@20:03
+ * @date 11/26/23@12:33
 */
 
 #include <stdio.h>
 
 int main()
 {
-    char ch = '0';
-
-    printf("%d", ch);
+    int i = 48;
+    printf("%#X", i);
 
     return 0;
 }
+
+
+/*
+    The Output is below:
+    0X30
+*/

@@ -1,15 +1,17 @@
 /**
- * @brief 跟郝老师自学C语言-目前进行到P36
+ * @brief 跟郝老师自学C语言-目前进行到P42
  * @author Lz
- * @date 11/26/23@12:33
+ * @date 11/26/23@15:41
 */
 
 #include <stdio.h>
 
 int main()
 {
-    int i = 48;
-    printf("%#X", i);
+    int i;
+    double j;
+    scanf("%d %lf", &i, &j);    //scanf将值赋给变量地址！！地址！！地址！！
+    printf("i = %d, j = %.12lf\n", i, j);
 
     return 0;
 }
@@ -17,5 +19,5 @@ int main()
 
 /*
     The Output is below:
-    0X30
+    i = 45, j = 3.141592653534
 */

@@ -12,7 +12,7 @@ int main()
     int i;
     double j;
     scanf("%d %lf", &i, &j);    //scanf将值赋给变量地址！！地址！！地址！！
-    printf("i = %d, j = %.12lf\n", i, j);
+    printf("i = %d, j = %.10lf\n", i, j);
 
     return 0;
 }
@@ -20,5 +20,5 @@ int main()
 
 /*
     The Output is below:
-    i = 45, j = 3.141592653534
+    i = 45, j = 3.1415000000
 */

@@ -1,17 +1,35 @@
-
 #include <stdio.h>
 
 int main() {
-    int a = 120;
-    int b = 996;
+    int characterCount = 0;
+    int lineCount = 0;
+    int wordCount = 0;
+    char ch;
+    int inWord = 0;
 
-    printf("Before swapping: a = %d, b = %d\n", a, b);
+    printf("请输入文本；键入“EOF”以结束输入，回车显示所求：\n");
 
-    a = a + b;
-    b = a - b;
-    a = a - b;
+    while ((ch = getchar()) != EOF) 
+    {
+        characterCount++;
 
-    printf("After swapping: a = %d, b = %d\n", a, b);
+        if (ch == '\n') 
+        {
+            lineCount++;
+        }
+
+        if (ch == ' ' || ch == '\n' || ch == '\t') 
+        {
+            inWord = 0;
+        } 
+        else if (inWord == 0) 
+        {
+            inWord = 1;
+            wordCount++;
+        }
+    }
+
+    printf("字符数：%d\n行数：%d\n单词数：%d\n", characterCount, lineCount, wordCount);
 
     return 0;
 }

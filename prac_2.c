@@ -1,3 +1,9 @@
+/**
+ * @brief 用数组的方式初始化字符串
+ * @author Lz
+ * @date 12/6/23 @ 18:58
+*/
+
 #include<string.h>
 #include<stdio.h>
 

@@ -1,12 +1,18 @@
-/***
- * @brief schoolwork
- * @author Lz
- * @date 11/29/23 @ 19:31
-*/
+// 用指针交换两个整数的值
 #include <stdio.h>
-int main()
-{
-	int i, j;
-	
-	return 0;
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int a, b;
+    printf("请输入两个整数：");
+    scanf("%d %d", &a, &b);
+    printf("交换前的值：a = %d, b = %d\n", a, b);
+    swap(&a, &b);
+    printf("交换后的值：a = %d, b = %d\n", a, b);
+    return 0;
 }

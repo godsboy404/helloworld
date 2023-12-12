@@ -1,7 +1,7 @@
 /**
- * @brief 郝学C语言-P49
+ * @brief 郝学C语言-P55
  * @author Lz
- * @date 12/3/23@18:14
+ * @date 12/12/23@9:21
 */
 //TODO 每日学习防止变笨！！
 
@@ -9,16 +9,15 @@
 
 int main()
 {
-    int i = 8, j = 10;
-    int m;
-    m = (5>1) || (j=6);          // 逻辑或运算符，只要有一个为真，结果就为真
-    printf("m = %d", m);
-
+    if (6 < 4) {
+        printf("AAA\n");
+        printf("BBB\n");
+    }
     return 0;
 }
 
 
 /*
-    The Output is below:
-    m = 1
+    输出如下:
+    \n
 */

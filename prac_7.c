@@ -6,7 +6,9 @@
 #include <stdio.h>
 int main()
 {
-	int i, j;
+	char i;
+	scanf("%c", &i);
+	printf("  %c\n %c%c%c\n%c%c%c%c%c\n", i, i, i, i, i, i, i, i, i);
 	
 	return 0;
 }

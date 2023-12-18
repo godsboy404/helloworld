@@ -18,6 +18,5 @@ int main()
 
 
 /*
-    输出如下:
-    \n
+    printf scanf if...else while 
 */

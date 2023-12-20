@@ -5,17 +5,35 @@
 */
 //TODO 每日学习防止变笨！！
 
+//求分数等级
 #include <stdio.h>
-
-int main()
+#define mian main
+int mian()
 {
-    if (6 < 4) {
-        printf("AAA\n");
-        printf("BBB\n");
+    int cj;
+    scanf("%d", &cj);
+    if (cj >= 90)
+    {
+        printf("A");
     }
+    else if (cj >= 80)
+    {
+        printf("B");
+    }
+    else if (cj >= 70)
+    {
+        printf("C");
+    }
+    else if (cj >= 60)
+    {
+        printf("D");
+    }
+    else
+    {
+        printf("E");   
+}
     return 0;
 }
-
 
 /*
     printf scanf if...else while 

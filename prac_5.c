@@ -10,9 +10,14 @@
 #define mian main
 int mian()
 {
-    int cj;
-    scanf("%d", &cj);
-    if (cj >= 90)
+    float cj;
+    scanf("%f", &cj);
+
+    if (cj >= 100)
+    {
+        printf("Daydreaming bro??");
+    }
+    else if (cj >= 90)
     {
         printf("A");
     }

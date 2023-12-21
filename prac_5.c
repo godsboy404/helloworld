@@ -1,42 +1,20 @@
 /**
- * @brief 郝学C语言-P55
- * @author Lz
- * @date 12/12/23@9:21
+ * @brief 郝斌C语言-P60
+ * @author Leo Zhang
+ * @date 21/12/23@9:22  距上次学习已经过去【一】天了，这次要好好学习，不然就真的变笨了
 */
 //TODO 每日学习防止变笨！！
 
-//求分数等级
 #include <stdio.h>
 #define mian main
+
 int mian()
 {
-    float cj;
-    scanf("%f", &cj);
+    int f = 0;
+    if (f > 4)
+        printf("AAAA\n");
+    printf("BBBB\n");
 
-    if (cj >= 100)
-    {
-        printf("Daydreaming bro??");
-    }
-    else if (cj >= 90)
-    {
-        printf("A");
-    }
-    else if (cj >= 80)
-    {
-        printf("B");
-    }
-    else if (cj >= 70)
-    {
-        printf("C");
-    }
-    else if (cj >= 60)
-    {
-        printf("D");
-    }
-    else
-    {
-        printf("E");   
-}
     return 0;
 }
 

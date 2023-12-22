@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="gcc" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" singleton="false" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug" TARGET_NAME="gcc.exe" CONFIG_NAME="gcc">
-    <option name="compilerFile" value="C:\mingw64\bin\gcc.exe" />
-    <option name="sourceFile" value="C:\mingw64\bin\gcc.exe" />
-    <method v="2">
-      <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-    </method>
-  </configuration>
-</component>

@@ -11,7 +11,9 @@
 	
 	int main(void)
 	{  
-		jolly();
-		deny();
-       return 0;
+		int i;
+		i = 1 + (int)rand() % 100;
+		printf("%d", i);
+		
+		return 0;
 	} 

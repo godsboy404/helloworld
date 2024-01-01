@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char hello[] = "Another Hello";
+	char hello[] = "HE'S WATCHING YOU!";
 	printf("%s\n", hello);
 	getchar();    //接收个字符 防止控制台直接结束
 	return 0;

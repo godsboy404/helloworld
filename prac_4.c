@@ -1,10 +1,10 @@
 #include<stdio.h>    
 
 int main() {    
-    FILE* file = fopen("hello.usr", "w");
-    fprintf(file, "Hello world!");
+    FILE* openFile = fopen("hello.usr", "w");
+    fprintf(openFile, "Good night!");
 
-    fclose(file);
+    fclose(openFile);
     printf("Writing to the file was successful. Closing the program.");
 
     return 0;

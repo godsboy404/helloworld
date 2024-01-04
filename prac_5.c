@@ -8,14 +8,7 @@
 #include <stdio.h>
 int main(void)
 {
-    int Counter;
-    double sum = 0;
-
-    for (Counter = 1; Counter <= 100; Counter++) {
-        sum = sum + (1.0/Counter);
-    }
-
-    printf("%lf\n",sum);
+    int a = 0;
 
     return 0;
 }

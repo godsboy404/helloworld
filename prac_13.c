@@ -1,26 +1,15 @@
+//
+// Created by Leo Zhang on 2024/1/11.
+//
 #include <stdio.h>
-#include <string.h>
-#define SQR(x) x*x
-
-union Demon {
-	int cock;
-	char psy[];
-	double depth;
-	int time;
-} name;
-
 int main() {
-	union Demon;
-	name.cock = 12;
-	name.depth = 25.7;
-	strcpy_s(name.psy, "Exusiai");
-	name.time = 17;
+    int nums[] = {16,54,7,43,-5};
+    int total = 0, *nPtr;
+    nPtr = nums;
 
-	printf("I have a %d sized cock which can sink into %s's %.1f measured psy for %d hrs!", name.cock, name.psy, name.depth, name.time);
+    while (nPtr < nums + 3)
+        total += *nPtr++;
+    printf("%d\n", *nPtr);
 
-	return 0;
+    return 0;
 }
-
-
-//代码运行结果：
-//          Have a nice day

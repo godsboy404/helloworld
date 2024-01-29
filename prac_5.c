@@ -5,13 +5,32 @@
 */
 //TODO 每日学习防止变笨！！
 
-#include <stdio.h>
-int main(void)
-{
-    int a = 0;
+/**
+ * @brief multi-dimensional array demo
+ * @author Leo Zhang
+ * @date 2024/1/15  18:49
+*/
 
-    return 0;
+#include <stdio.h>
+#define COL 4
+#define LN 3
+#define BID 2
+
+int main() {
+    int num[LN][COL][BID] = {{{1, 2,}, {3, 4}, {5, 6}, {7, 8}},
+                             {{9, 10}, {11,12},{13,14},{15,16}},
+                             {{17,18}, {19,20},{21,22},{23,24}}};
+
+    int i, j, k;
+    for (i = 0; i < LN; ++i)
+        for (j = 0; j < COL; ++j)
+            for (k = 0; k < BID; ++k)
+                printf("%d  ", num[i][j][k]);
+
+    return COL*LN*BID;  //return 24
 }
-/*
-    printf scanf if/else for while
+
+/**
+* @result
+ * 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24
 */

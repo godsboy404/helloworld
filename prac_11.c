@@ -1,23 +1,15 @@
 #include <stdio.h>
-#define SQR(x) x*x
+#include <stdbool.h>
+#define TheyHaveEggs true
 
-union Demon {
-	int cock;
-	char *psy;
-	double depth;
-	int time;
-} name;
-int main() {
-	union Demon;
-	name.cock = 12;
-	name.depth = 25.7;
-	name.psy = "Exusiai";
-	name.time = 15;
-
-	printf("I have a %d sized cock which can sink into %s's %.1f measured psy for %d hrs!", name.cock, name.psy, name.depth, name.time);
-
-	return 0;
+void pickUp(const char* item) {
+    printf("Picking up %s\n", item);
 }
 
-//代码运行结果：
-//          Have a nice day
+int main() {
+    pickUp("a gallon of milk");
+	if (TheyHaveEggs)
+		pickUp("a dozen of eggs");
+
+    return 0;
+}
